@@ -30,14 +30,14 @@ function SunIcon({ className }: { className?: string }) {
 
 export function Wordmark({ className, light }: WordmarkProps) {
   return (
-    <span className={cn('inline-flex items-center gap-2.5', className)}>
+    <span className={cn('inline-flex items-center gap-4', className)}>
       <SunIcon
-        className={cn('h-7 w-7 flex-none', light ? 'text-sol-400' : 'text-sol-500')}
+        className={cn('h-20 w-20 flex-none', light ? 'text-sol-400' : 'text-sol-500')}
       />
       <span className="leading-none">
         <span
           className={cn(
-            'font-display text-xl font-bold tracking-tight',
+            'font-avenir text-6xl font-bold tracking-tight',
             light ? 'text-paper' : 'text-dusk-900'
           )}
         >
@@ -45,7 +45,7 @@ export function Wordmark({ className, light }: WordmarkProps) {
         </span>
         <span
           className={cn(
-            'ml-1.5 font-sans text-xl font-medium',
+            'ml-2 font-avenir text-6xl font-medium',
             light ? 'text-sol-300' : 'text-dusk-600'
           )}
         >

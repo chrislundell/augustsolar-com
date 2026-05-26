@@ -83,7 +83,8 @@ const config: Config = {
       },
       fontFamily: {
         display: ['var(--font-fraunces)', 'Georgia', 'serif'],
-        sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif']
+        sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
+        avenir: ['Avenir', 'Avenir Next', 'Century Gothic', 'Trebuchet MS', 'sans-serif']
       },
       fontSize: {
         '2xs': ['0.6875rem', { lineHeight: '1rem' }],

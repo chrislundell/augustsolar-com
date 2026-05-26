@@ -12,7 +12,7 @@ const navLinks = [
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-dusk-100 bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/80">
-      <Container className="flex h-20 items-center justify-between">
+      <Container className="flex h-32 items-center justify-between">
         <Link href="/" aria-label="August Solar home">
           <Wordmark />
         </Link>
