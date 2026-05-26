@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     'energy storage',
     'solar battery backup',
     'energy independence',
-    'North Carolina solar',
-    'Raleigh solar'
+    'nationwide solar installation',
+    'US solar company'
   ],
   authors: [{ name: 'August Solar', url: siteConfig.url }],
   openGraph: {

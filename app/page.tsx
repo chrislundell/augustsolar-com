@@ -5,9 +5,9 @@ import { Eyebrow } from '@/components/ui/eyebrow';
 import { FaqJsonLd } from '@/components/seo/json-ld';
 
 export const metadata = {
-  title: 'August Solar — Residential Solar & Battery Storage, North Carolina',
+  title: 'August Solar — Residential Solar & Battery Storage Nationwide',
   description:
-    'August Solar installs residential solar and battery storage in North Carolina. Power your home by day. Storage keeps the life you love running by night.',
+    'August Solar installs residential solar and battery storage across the United States. Power your home by day. Storage keeps the life you love running by night.',
   alternates: { canonical: '/' }
 };
 
@@ -214,7 +214,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 max-w-xl text-xl leading-relaxed text-dusk-300">
               We install solar panels and battery storage systems for
-              homeowners across North Carolina. Your home runs on the sun.
+              homeowners across the United States. Your home runs on the sun.
               Storage keeps everything running when the sun goes down.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">

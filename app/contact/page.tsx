@@ -6,7 +6,7 @@ import { BreadcrumbJsonLd } from '@/components/seo/json-ld';
 import { siteConfig } from '@/lib/utils';
 
 export const metadata = {
-  title: 'Get a Free Solar Quote — August Solar, North Carolina',
+  title: 'Get a Free Solar Quote — August Solar, Nationwide',
   description:
     'Schedule your free home solar assessment with August Solar. We visit your home, assess your roof and energy use, and give you honest numbers. No obligation, no pressure.',
   alternates: { canonical: '/contact' }
@@ -164,9 +164,8 @@ export default function ContactPage() {
                   Service area
                 </p>
                 <p className="text-sm text-dusk-600 leading-relaxed">
-                  August Solar serves homeowners across North Carolina,
-                  including Raleigh, Durham, Chapel Hill, Cary, Wake Forest,
-                  Apex, Fuquay-Varina, and surrounding communities.
+                  August Solar serves homeowners across all 50 states.
+                  Wherever you are in the US, we can help you go solar.
                   Not sure if we cover your area? Just ask.
                 </p>
               </div>

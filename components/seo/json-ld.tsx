@@ -14,8 +14,8 @@ export function LocalBusinessJsonLd() {
     currenciesAccepted: 'USD',
     paymentAccepted: 'Cash, Credit Card, Financing',
     areaServed: {
-      '@type': 'State',
-      name: 'North Carolina'
+      '@type': 'Country',
+      name: 'United States'
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -94,8 +94,8 @@ export function ServiceJsonLd({
       url: siteConfig.url
     },
     areaServed: {
-      '@type': 'State',
-      name: 'North Carolina'
+      '@type': 'Country',
+      name: 'United States'
     },
     audience: {
       '@type': 'Audience',

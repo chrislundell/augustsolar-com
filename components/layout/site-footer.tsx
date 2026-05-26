@@ -34,7 +34,7 @@ export function SiteFooter() {
               independence. Power the life you love — day and night.
             </p>
             <p className="mt-4 text-xs text-dusk-500">
-              Serving North Carolina and surrounding areas.
+              Serving homeowners across all 50 states.
             </p>
           </div>
 

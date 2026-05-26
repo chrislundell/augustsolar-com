@@ -5,9 +5,9 @@ import { Eyebrow } from '@/components/ui/eyebrow';
 import { BreadcrumbJsonLd, ServiceJsonLd } from '@/components/seo/json-ld';
 
 export const metadata = {
-  title: 'Solar Panels & Battery Storage Installation | August Solar NC',
+  title: 'Solar Panels & Battery Storage Installation | August Solar',
   description:
-    'August Solar installs residential solar panel systems and battery storage. One company for solar design, installation, batteries, monitoring, and maintenance in North Carolina.',
+    'August Solar installs residential solar panel systems and battery storage nationwide. One company for solar design, installation, batteries, monitoring, and maintenance across the US.',
   alternates: { canonical: '/solar-storage' }
 };
 

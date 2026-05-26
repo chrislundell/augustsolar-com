@@ -106,7 +106,7 @@ export default function OgImage() {
             maxWidth: 700
           }}
         >
-          Residential Solar &amp; Battery Storage &mdash; North Carolina
+          Residential Solar &amp; Battery Storage &mdash; Nationwide
         </div>
       </div>
     ),
