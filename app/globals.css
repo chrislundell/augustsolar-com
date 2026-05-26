@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-display;
+  }
+
+  a {
+    @apply transition-colors duration-150;
+  }
+
+  ::selection {
+    background: rgba(245, 158, 11, 0.22);
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-sol-500 ring-offset-2 ring-offset-paper;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply container max-w-5xl;
+  }
+
+  .container-narrow {
+    @apply container max-w-3xl;
+  }
+
+  /* Light backgrounds */
+  .heading-xl {
+    @apply font-display font-bold text-4xl leading-tight text-dusk-900 sm:text-5xl lg:text-6xl;
+  }
+
+  .heading-lg {
+    @apply font-display font-bold text-3xl leading-tight text-dusk-900 sm:text-4xl;
+  }
+
+  .heading-md {
+    @apply font-display font-semibold text-2xl leading-tight text-dusk-900 sm:text-3xl;
+  }
+
+  /* Dark background variants */
+  .heading-xl-light {
+    @apply heading-xl text-paper;
+  }
+
+  .heading-lg-light {
+    @apply heading-lg text-paper;
+  }
+
+  .heading-md-light {
+    @apply heading-md text-paper;
+  }
+
+  .body-lg {
+    @apply text-lg leading-relaxed text-dusk-700;
+  }
+
+  .body-base {
+    @apply text-base leading-relaxed text-dusk-700;
+  }
+
+  .eyebrow {
+    @apply font-sans text-xs font-semibold uppercase tracking-[0.2em] text-sol-600;
+  }
+
+  .eyebrow-light {
+    @apply font-sans text-xs font-semibold uppercase tracking-[0.2em] text-sol-300;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-22 lg:py-28;
+  }
+
+  /* Warm glow card */
+  .card-warm {
+    @apply rounded-xl border border-sol-200 bg-sol-50 p-6 shadow-card;
+  }
+
+  /* Dark card */
+  .card-dark {
+    @apply rounded-xl border border-dusk-800 bg-dusk-900 p-6;
+  }
+}
