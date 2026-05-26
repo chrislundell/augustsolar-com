@@ -7,7 +7,7 @@ import { FaqJsonLd } from '@/components/seo/json-ld';
 export const metadata = {
   title: 'August Solar — Residential Solar & Battery Storage, North Carolina',
   description:
-    'August Solar installs residential solar panels and battery storage. Power your home by day. Battery storage keeps the life you love running by night. Serving North Carolina.',
+    'August Solar installs residential solar and battery storage in North Carolina. Power your home by day. Storage keeps the life you love running by night.',
   alternates: { canonical: '/' }
 };
 
