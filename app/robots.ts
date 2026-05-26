@@ -16,7 +16,10 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'ClaudeBot', allow: '/' },
       { userAgent: 'PerplexityBot', allow: '/' },
       { userAgent: 'YouBot', allow: '/' },
-      { userAgent: 'Google-Extended', allow: '/' }
+      { userAgent: 'Google-Extended', allow: '/' },
+      { userAgent: 'Googlebot', allow: '/' },
+      { userAgent: 'Bingbot', allow: '/' },
+      { userAgent: 'DuckDuckBot', allow: '/' }
     ],
     sitemap: 'https://augustsolar.com/sitemap.xml'
   };
