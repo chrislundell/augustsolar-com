@@ -82,8 +82,8 @@ const config: Config = {
         ink: '#080b22'
       },
       fontFamily: {
-        display: ['var(--font-fraunces)', 'Georgia', 'serif'],
-        sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
+        display: ['Avenir', 'Avenir Next', 'Century Gothic', 'Trebuchet MS', 'sans-serif'],
+        sans: ['Avenir', 'Avenir Next', 'Century Gothic', 'Trebuchet MS', 'sans-serif'],
         avenir: ['Avenir', 'Avenir Next', 'Century Gothic', 'Trebuchet MS', 'sans-serif']
       },
       fontSize: {
